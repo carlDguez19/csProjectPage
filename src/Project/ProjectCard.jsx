@@ -1,6 +1,4 @@
-// import logo images for demo and github here
-
-export function ProjectCard({title, description, stack, thnail, thAlt, demoLink, githubLink}){
+export function ProjectCard({title, description, stack, thnail, thAlt, demoLink, githubLink, demoIcon, gitIcon}){
     return (
         <div className="card">
             <div className="thContainer">
@@ -11,8 +9,8 @@ export function ProjectCard({title, description, stack, thnail, thAlt, demoLink,
                 <p>{description}</p>
                 <h4>{stack}</h4>
                 <div className="demoGitIcons">
-                    <a href={demoLink}><img src="" alt="" /></a>
-                    <a href={githubLink}><img src="" alt="" /></a>
+                    <a href={demoLink} target="_blank" rel="noopener noreferrer"><img src={demoIcon} alt="Demo" /></a>
+                    <a href={githubLink} target="_blank" rel="noopener noreferrer"><img src={gitIcon} alt="Github" /></a>
                 </div>
             </div>
         </div>
