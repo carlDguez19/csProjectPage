@@ -1,4 +1,8 @@
 import { App } from "./App"
+import { Home } from "./Home/Home";
+import { Project } from "./Project/Project";
+import { About } from "./About/About";
+import { Contact } from "./Contact/Contact";
 
 export const routes = [
     {
