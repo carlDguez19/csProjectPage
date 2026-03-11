@@ -1,0 +1,21 @@
+.projectsSection{
+    width: 100%;
+
+}
+.sideProjGrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /*  mobile default */
+    gap: 15px;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+}
+
+@media (min-width: 600px){
+    .sideProjGrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

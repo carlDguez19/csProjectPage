@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 275px; */
+    margin: 15px auto;
+    padding: 15px 20px;
+    background-color: #777;
+    border-radius: 15px;
+}
+
+.thContainer{
+    width: 90%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    border-radius: 10px;
+    /* padding: 0 20px; */
+    outline: 2px solid yellow;
+}
+
+.thContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projDesc{
+    max-width: 100%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.demoGitIcons a{
+    padding: 10px;
+}
+
+@media (min-width: 700px){
+    .card{
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .thContainer{
+        width: 300px;
+        flex-shrink: 0;
+    }
+}

@@ -3,10 +3,28 @@ nav{
     top: 0;
     z-index: 1000;
     background-color: #222;
+    padding: 1rem 0;
 }
 .navi{
     display: flex;
     list-style-type: none;
     justify-content: space-around;
     align-items: center;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.navi li{
+    width: 100px;
+    padding: 5px;
+}
+
+.navi h2{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
 }
