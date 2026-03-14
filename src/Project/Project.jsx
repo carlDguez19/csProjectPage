@@ -7,6 +7,7 @@ import sqlzooTh from '../assets/thumbnails/sqlzooTh.png'
 import pokeMemGame from '../assets/thumbnails/pokeMemGameTh.png'
 import cvappTh from '../assets/thumbnails/cvappTh.png'
 import climateApp from '../assets/thumbnails/climateAppTh.png'
+import todoListTh from '../assets/thumbnails/todolistTh.png'
 import styles from './Project.module.css'
 
 export function Project(){
@@ -34,7 +35,7 @@ export function Project(){
                 <ProjectCard title="Memory Game" stack="React, Javascript, CSS, Vite, PokeAPI" thnail={pokeMemGame} thAlt="Pokemon Memory Game Thumbnail" demoLink="https://memorygamecarlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinMemoryGame" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
                 <ProjectCard title="CV App" stack="React, Javascript, CSS, Vite" thnail={cvappTh} thAlt="cvApp Thumbnail" demoLink="https://cvapp-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinCvapp" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
                 <ProjectCard title="Climate App" stack="Javascript, Webpack, CSS, HTML5, WeatherAPI" thnail={climateApp} thAlt="Climate app Thumbnail" demoLink="https://climateapp-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinClimate" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
-                <ProjectCard title="Memory Game" stack="React, Javascript, CSS, Vite, PokeAPI" thnail={pokeMemGame} thAlt="Pokemon Memory Game Thumbnail" demoLink="https://memorygamecarlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinMemoryGame" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
+                <ProjectCard title="To-Do List" stack="Javascript, CSS, HTML5, Webpack, date-fns, localStorage" thnail={todoListTh} thAlt="To Do List Thumbnail" demoLink="https://to-dolist-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinToDoList" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
                 <ProjectCard title="Memory Game" stack="React, Javascript, CSS, Vite, PokeAPI" thnail={pokeMemGame} thAlt="Pokemon Memory Game Thumbnail" demoLink="https://memorygamecarlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinMemoryGame" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
             </div>
         
