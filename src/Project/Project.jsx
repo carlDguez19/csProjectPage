@@ -8,6 +8,9 @@ import pokeMemGame from '../assets/thumbnails/pokeMemGameTh.png'
 import cvappTh from '../assets/thumbnails/cvappTh.png'
 import climateApp from '../assets/thumbnails/climateAppTh.png'
 import todoListTh from '../assets/thumbnails/todolistTh.png'
+import libraryTh from '../assets/thumbnails/libraryTh.png'
+import calculatorTh from '../assets/thumbnails/calculatorTh.png'
+import etchTh from '../assets/thumbnails/etchTh.png'
 import styles from './Project.module.css'
 
 export function Project(){
@@ -36,7 +39,9 @@ export function Project(){
                 <ProjectCard title="CV App" stack="React, Javascript, CSS, Vite" thnail={cvappTh} thAlt="cvApp Thumbnail" demoLink="https://cvapp-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinCvapp" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
                 <ProjectCard title="Climate App" stack="Javascript, Webpack, CSS, HTML5, WeatherAPI" thnail={climateApp} thAlt="Climate app Thumbnail" demoLink="https://climateapp-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinClimate" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
                 <ProjectCard title="To-Do List" stack="Javascript, CSS, HTML5, Webpack, date-fns, localStorage" thnail={todoListTh} thAlt="To Do List Thumbnail" demoLink="https://to-dolist-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinToDoList" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
-                <ProjectCard title="Memory Game" stack="React, Javascript, CSS, Vite, PokeAPI" thnail={pokeMemGame} thAlt="Pokemon Memory Game Thumbnail" demoLink="https://memorygamecarlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinMemoryGame" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
+                <ProjectCard title="Library" stack="Javascript, CSS, HTML" thnail={libraryTh} thAlt="Library app Thumbnail" demoLink="https://library-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinLibrary" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
+                <ProjectCard title="Calculator App" stack="Javascript, CSS, HTML" thnail={calculatorTh} thAlt="Calculator app Thumbnail" demoLink="https://calculator-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinCalculator" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
+                <ProjectCard title="Etch-A-Sketch" stack="Javascript, CSS, HTML" thnail={etchTh} thAlt="Etch-a-Sketch Thumbnail" demoLink="https://etchasketch-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinEtchASketch" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>
             </div>
         
         </div>
