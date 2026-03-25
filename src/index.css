@@ -6,6 +6,12 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+
+  --text-main: #1a1a1a;
+  --text-soft: #444;
+  --accent: #3a6ea5;
+  --max-width: 800px;
+  --section-padding: 6rem;
 }
 
 #root {

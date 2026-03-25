@@ -2,29 +2,29 @@ nav{
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #222;
-    padding: 1rem 0;
+    background: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
 }
 .navi{
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-    padding: 10px;
-    text-align: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 0 2rem;
+    padding: 0;
 }
 
-.navi li{
-    width: 100px;
-    padding: 5px;
-}
-
-.navi h2{
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-a{
+.navi a{
     text-decoration: none;
+    color: #1a1a1a;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navi a:hover{
+    color: #3a6ea5;
 }

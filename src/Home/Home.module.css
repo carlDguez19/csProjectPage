@@ -1,0 +1,76 @@
+.heroSection{
+    padding: var(--section-padding) 1.5rem;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+
+.heroContent{
+    max-width: var(--max-width);
+}
+
+.heroContent h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 2.2rem;
+}
+
+.heroDesc{
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--text-soft);
+    margin-bottom: 2.5rem;
+    max-width: 650px;
+}
+
+.heroCred{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-main);
+    opacity: 0.8;
+}
+
+.introSection{
+    padding: 2rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+
+.introTxt{
+    max-width: 650px;
+    font-size: 1.15rem;
+    line-height: 1.75;
+    color: var(--text-soft);
+    text-align: center;
+}
+
+.techSection{
+    padding: 4rem 1.5rem;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.techStackTitle{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--text-main);
+}
+
+.techList{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 700px;
+    color: var(--text-soft);
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.2rem;
+}
+
+.techList li:hover{
+    background: #ececec;
+}

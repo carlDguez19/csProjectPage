@@ -22,7 +22,7 @@ export function Contact() {
         </li>
 
         <li>
-          <a href="https://www.linkedin.com/in/yourLinkedInUsername" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/carlosdominguezdev/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
         </li>
