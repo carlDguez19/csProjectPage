@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.aboutSection{
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+.aboutWrapper{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.aboutHeader{
+    margin-bottom: 3rem;
+    color: var(--text-main);
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.aboutBlock{
+    margin-bottom: 4rem;
+}
+
+.aboutTitle{
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    color: var(--text-main);
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.aboutTitle::after,
+.aboutHeader::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    background: #1a1a1a;
+    border-radius: 2px;
+}
+
+.aboutText{
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: var(--text-soft);
+}

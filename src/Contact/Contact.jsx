@@ -16,16 +16,17 @@ export function Contact() {
         </li>
 
         <li>
+          <a href="https://www.linkedin.com/in/carlosdominguezdev/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </li>
+
+        <li>
           <a href="https://github.com/carlDguez19" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </li>
 
-        <li>
-          <a href="https://www.linkedin.com/in/carlosdominguezdev/" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-        </li>
       </ul>
 
     </section>
