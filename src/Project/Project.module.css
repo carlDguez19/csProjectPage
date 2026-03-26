@@ -17,8 +17,17 @@
     }
 }
 
-@media (min-width: 600px){
+@media (min-width: 900px){
     .sideProjGrid{
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 699px){
+    .projectsSection{
+        max-width: 100vw;
+        padding: 1rem;
+        overflow-x: hidden;
+        box-sizing: border-box;
     }
 }

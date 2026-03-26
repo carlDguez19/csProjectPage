@@ -81,23 +81,21 @@
         padding: 2rem;
     }
 
-    .card:not(.smallcard) .thContainer{
+    .card:not(.smallCard) .thContainer{
         width: 300px;
         flex-shrink: 0;
     }
 
-    .card:not(.smallcard) .projDesc{
+    .card:not(.smallCard) .projDesc{
         padding-left: 2rem;
     }
 }
 
 @media (max-width: 699px){
     .card{
-        max-width: 100%;
         width: 100%;
-        margin: 0.5rem 0;
-        padding: 0.5rem;
-        gap: 0.5rem;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
     .projDesc h3{
@@ -117,6 +115,13 @@
 
     .thContainer{
         aspect-ratio: 16 / 9;
+        height: auto;
+    }
+
+    .thContainer img{
+        width: 100%;
+        max-width: 100%;
+        display: block;
     }
 
     .demoGitIcons a img{
