@@ -54,6 +54,13 @@
     opacity: 0.7;
 }
 
+.smallCard {
+    width: 100%;
+    max-width: 350px;
+    padding: 1rem;
+    flex-direction: column;
+}
+
 @media (min-width: 700px){
     .card{
         flex-direction: row;
@@ -68,5 +75,13 @@
 
     .projDesc{
         padding-left: 2rem;
+    }
+
+    .smallCard{
+        flex-direction: column;
+    }
+
+    .smallCard .thContainer{
+        width: 100%;
     }
 }

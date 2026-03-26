@@ -1,8 +1,8 @@
 import styles from './ProjectCard.module.css'
 
-export function ProjectCard({title, description, stack, thnail, thAlt, demoLink, githubLink, demoIcon, githubIcon, githubAlt, demoAlt}){
+export function ProjectCard({small = false, title, description, stack, thnail, thAlt, demoLink, githubLink, demoIcon, githubIcon, githubAlt, demoAlt}){
     return (
-        <div className={styles.card}>
+        <div className={`${styles.card} ${small ? styles.smallCard : ""}`}>
             <div className={styles.thContainer}>
                 <img src={thnail} alt={thAlt} />
             </div>
