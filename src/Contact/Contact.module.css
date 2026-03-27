@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.contactSection{
+    background: #fff;
+    color: #1a1a1a;
+}
+
+.contactWrapper{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contactTitle{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
