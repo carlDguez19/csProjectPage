@@ -4,7 +4,7 @@ export function Home(){
     return (
         <>
             <section className = {styles.heroSection}>
-                <div className={styles.heroContent}>
+                <div className={`${styles.heroContent} ${styles.fadeIn}`}>
                     <h1>
                         Software Developer
                     </h1>
@@ -18,7 +18,7 @@ export function Home(){
                 </div>
             </section>
             <section className={styles.introSection}>
-                <p className={styles.introTxt}>
+                <p className={`${styles.introTxt} ${styles.fadeIn}`}>
                     I enjoy building interfaces that feel intuitive, consistent, and
                     thoughtfully structured. My approach centers on writing clean, maintainable
                     code, designing with clarity in mind, and breaking problems down into
@@ -27,17 +27,19 @@ export function Home(){
                 </p>
             </section>
             <section className={styles.techSection}>
-                <h2 className={styles.techStackTitle}> Tech Stack</h2>
+                <div className={styles.fadeIn}>
+                    <h2 className={styles.techStackTitle}> Tech Stack</h2>
 
-                <ul className={styles.techList}>
-                    <li>HTML5</li>
-                    <li>CSS3 / SCSS</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>React</li>
-                    <li>Git & Github</li>
-                    <li>Responsive Design</li>
-                    <li>Backend Fundamentals (in progress)</li>
-                </ul>
+                    <ul className={styles.techList}>
+                        <li>HTML5</li>
+                        <li>CSS3 / SCSS</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React</li>
+                        <li>Git & Github</li>
+                        <li>Responsive Design</li>
+                        <li>Backend Fundamentals (in progress)</li>
+                    </ul>
+                </div>
             </section>
         </>
     )

@@ -30,7 +30,7 @@ export function Project(){
 
     return (
         <section className= {styles.projectsSec}>
-            <div className={styles.projectsSection}>
+            <div className={`${styles.projectsSection} ${styles.fadeIn}`}>
                 <h2 className={styles.projectHeader}>Featured Projects</h2>
                 {/* each card will contain the following: title, description, stack, thnail, thAlt, demoLink, githubLink, demoIcon, githubIcon */}
                 <ProjectCard title="Battleship" description={battleshipDesc} stack="Javascript, CSS, HTML, Netlify" thnail={battleshipTh} thAlt="Battleship Thumbnail" demoLink="https://battleship-carlos.netlify.app/" githubLink="https://github.com/carlDguez19/odinBattleship2" demoIcon={demoIcon} githubIcon={githubIcon} githubAlt="Github link" demoAlt="Demo link"/>

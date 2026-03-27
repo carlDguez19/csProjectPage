@@ -3,7 +3,7 @@ import styles from './About.module.css'
 export function About() {
   return (
     <section className={styles.aboutSection}>
-      <div className={styles.aboutWrapper}>
+      <div className={`${styles.aboutWrapper} ${styles.fadeIn}`}>
         <h1 className={styles.aboutHeader}>About Me</h1>
         {/* WHO I AM */}
         <div className={styles.aboutBlock}>
