@@ -5,7 +5,8 @@ export function Contact() {
       <h2 className="contactTitle">Get in Touch</h2>
 
       <p className="contactIntro">
-        The best way to reach me is through email or any of the links below.
+        I’m always open to new opportunities, collaborations, and conversations.
+        Feel free to reach out through email or any of the links below.
       </p>
 
       <ul className="contactList">
