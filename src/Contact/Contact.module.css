@@ -7,6 +7,13 @@
 .contactSection{
     background: #fff;
     color: #1a1a1a;
+    min-height: 100vh;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+
 }
 
 .contactWrapper{

@@ -2,7 +2,7 @@ import styles from './Home.module.css'
 
 export function Home(){
     return (
-        <>
+        <main className={styles.homeWrapper}>
             <section className = {styles.heroSection}>
                 <div className={`${styles.heroContent} ${styles.fadeIn}`}>
                     <h1>
@@ -41,6 +41,6 @@ export function Home(){
                     </ul>
                 </div>
             </section>
-        </>
+        </main>
     )
 }
