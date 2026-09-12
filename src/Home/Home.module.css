@@ -1,3 +1,10 @@
+.homeWrapper{
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .heroSection{
     padding: var(--section-padding) 1.5rem;
     display: flex;
@@ -50,6 +57,7 @@
     padding: 4rem 1.5rem;
     text-align: center;
     background: #f7f7f7;
+    margin-top: auto;
 }
 
 .techStackTitle{
